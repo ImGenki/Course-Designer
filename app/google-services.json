@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "711971043088",
+    "firebase_url": "https://course-designer-4ae6d-default-rtdb.firebaseio.com",
+    "project_id": "course-designer-4ae6d",
+    "storage_bucket": "course-designer-4ae6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711971043088:android:cfdf88d259147d4d25d795",
+        "android_client_info": {
+          "package_name": "com.example.coursedesigner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711971043088-adjucibnruvgivt7su2jm8m9uv7q89s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0r_SxTc0W770bHVw7TBAnvSWk0i7wpiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711971043088-adjucibnruvgivt7su2jm8m9uv7q89s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711971043088:android:00de1bacc3b1822f25d795",
+        "android_client_info": {
+          "package_name": "com.package.coursedesigner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711971043088-adjucibnruvgivt7su2jm8m9uv7q89s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0r_SxTc0W770bHVw7TBAnvSWk0i7wpiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711971043088-adjucibnruvgivt7su2jm8m9uv7q89s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

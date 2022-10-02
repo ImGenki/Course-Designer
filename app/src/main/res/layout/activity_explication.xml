@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ScrollingExplication">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imageView13"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/logo_cd" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/grisfonce_fond"
+        android:contentDescription="@string/mess_de_bienvenue"
+        android:gravity="center_horizontal"
+        android:text="@string/bienvenue_sur_course_designer_vous_voulez_cr_er_vos_propres_parcours_c_est_ici_que_ca_se_passe_vous_tes_novice_pas_de_probl_me_vous_trouverez_ci_dessous_des_images_vous_permettant_de_comprendre_les_diff_rents_types_d_obstacles_que_l_on_peut_trouver_sur_un_terrrain_de_concours"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:contentDescription="@string/scroll_explicatif"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="286dp">
+
+        <LinearLayout
+            android:contentDescription="@string/layout_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:contentDescription="@string/vertical_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/vertical"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/blue_grey"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:contentDescription="@string/image_vertical"
+                android:id="@+id/imageView4"
+                android:layout_width="396dp"
+                android:layout_height="234dp"
+                app:srcCompat="@drawable/vertical_photo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/oxer"
+                android:text="@string/oxer"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/blue_grey"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="396dp"
+                android:layout_height="234dp"
+                app:srcCompat="@drawable/oxer_photo"
+                android:contentDescription="@string/oxer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/spa"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/blue_grey"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="396dp"
+                android:layout_height="234dp"
+                app:srcCompat="@drawable/spa_photo"
+                android:contentDescription="@string/spa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/mur"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/blue_grey"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="386dp"
+                android:layout_height="234dp"
+                app:srcCompat="@drawable/mur_photo"
+                android:contentDescription="@string/mur" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/rivi_re"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/blue_grey"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="396dp"
+                android:layout_height="234dp"
+                app:srcCompat="@drawable/riviere_photo"
+                android:contentDescription="@string/rivi_re" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/btnGo"
+            android:layout_width="107dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rightarrowbutton"
+            android:contentDescription="@string/go" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

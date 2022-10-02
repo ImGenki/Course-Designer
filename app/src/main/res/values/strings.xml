@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Course Designer</string>
+    <string name="bienvenue_sur_course_designer_vous_voulez_cr_er_vos_propres_parcours_c_est_ici_que_ca_se_passe_vous_tes_novice_pas_de_probl_me_vous_trouverez_ci_dessous_des_images_vous_permettant_de_comprendre_les_diff_rents_types_d_obstacles_que_l_on_peut_trouver_sur_un_terrrain_de_concours">Bienvenue sur Course Designer! Vous voulez créer vos propres parcours c\'est ici que ca se passe ! Vous êtes novice ? Pas de problème vous trouverez ci-dessous des images vous permettant de comprendre les différents types d\'obstacles que l\'on peut trouver sur un terrrain de concours</string>
+    <string name="mess_de_bienvenue">Mess de bienvenue</string>
+    <string name="scroll_explicatif">scroll explicatif</string>
+    <string name="layout_description">layout description</string>
+    <string name="vertical_image">vertical image</string>
+    <string name="vertical">Vertical</string>
+    <string name="image_vertical">image vertical</string>
+    <string name="oxer">Oxer</string>
+    <string name="spa">Spa</string>
+    <string name="mur">Mur</string>
+    <string name="rivi_re">Rivière</string>
+    <string name="go">go</string>
+    <string name="password">Password</string>
+    <string name="logo">logo</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string-array name="obstacles">
+        <item>vertical</item>
+        <item>oxer</item>
+        <item>spa</item>
+        <item>croix</item>
+        <item>riviere</item>
+        <item>mur</item>
+    </string-array>
+
+
+    <string-array name="combinaisons">
+        <item>double verticaux</item>
+        <item>double oxer/vertical</item>
+        <item>double vertical/oxer</item>
+        <item>triple oxer/vertical/vertical</item>
+        <item>triple oxer/vertical/oxer</item>
+        <item>double spa/vertical</item>
+    </string-array>
+
+</resources>
